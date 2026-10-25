@@ -256,7 +256,7 @@ ALLOWED_ORIGINS=http://localhost:8000,http://127.0.0.1:8000
 | `API_TOKEN` | *(empty)* | Optional Bearer token protecting the API |
 | `ALLOWED_ORIGINS` | `http://localhost:8000,http://127.0.0.1:8000` | Comma-separated CORS origins |
 
-> `.env` is already listed in `.gitignore` — never commit real keys.
+> `.env` is already listed in `.gitignore` — never commit any real keys.
 
 > 💡 **SSL note:** `app/config.py` automatically points `SSL_CERT_FILE` at the `certifi` bundle when it's unset or points to a missing file. This fixes common certificate errors in Conda environments.
 
